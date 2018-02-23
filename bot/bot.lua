@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Tokan"
+bot_token = "539027595:AAHiUc_lEE-iJE6ebpJbNscKOUfpX5IHACY"
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 377450049
+sudo_id = 526959096
 http = require('socket.http')
 https = require('ssl.https')
 URL = require('socket.url')
@@ -184,7 +184,7 @@ if not tostring(SUDO):match('%d+') then
     enabled_plugins = {
     "MRCore"
     },
-    sudo_users = {377450049, SUDO},--Sudo users
+    sudo_users = {526959096, SUDO},--Sudo users
     master_id = SUDO, 
     admins = {},
     disabled_channels = {},
